@@ -12,4 +12,15 @@
     #navbar{
       font-size: 250%;
     }
+
+    .container img{
+      width: 80%;
+      height: 80%;
+    }
+
+    #video{
+      width: 100%;
+      height: 100%;
+    }
+
 }
