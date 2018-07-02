@@ -11,12 +11,25 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
 </head>
 
 <body>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="privacy.html">Privacy policy</a>
+        <a href="advertpolicy.html">Advertising Policy</a>
+        <br>
+        <a href="https://adcafe.github.io/UserTutorial/">User Tutorial</a>
+        <a href="https://adcafe.github.io/AdvertiserTutorial/">Advertiser Tutorial</a>
+    </div>
+
     <div id="navbar">
         <nav class="navbar navbar-expand-xl navbar-light bg-light navbar-fixed-to">
-            <a class="navbar-brand" href="index.html">AdCafé.</a>
+            <a class="navbar-brand" onclick="openNav()">
+                <img src="images/nav_img.jpg" width="40" height="30" alt="" >AdCafé.
+            </a>
+            <!-- <a class="navbar-brand" href="index.html">AdCafé.</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -32,16 +45,18 @@
                         <a class="nav-link" href="advertpolicy.html">Advertising policy</a>
                     </li>
                 </ul>
-            </div>
+            </div> -->
         </nav>
     </div>
 
-    <div class="container">
+
+
+    <div class="container" id="main" onclick="closeNav()">
         <h1><strong>Terms &amp; Conditions</strong></h1>
         <p>By downloading or using the app, these terms will automatically apply to you – you should make sure therefore that you read them carefully before using the app. Throughout the site, the terms “we”, “us” and “our” refer to Color Technologies Limited,
-            the terms "you" and "your" refer to you, the user of the app and the terms "app", "here", "service", "AdCafé app" or "AdCafé" and "application" refer to the service we are providing to you, the user, in this smartphone application only.
-            You’re not allowed to copy, or modify the app, any part of the app, or our trademarks in any way. You’re not allowed to attempt to extract the source code of the app, and you also shouldn’t try to translate the app into other languages, or
-            make derivative versions. The app itself, and all the trade marks, copyright, database rights and other intellectual property rights related to it, still belong to Color Technologies Limited.</p>
+            the terms "you" and "your" refer to you, the user of the app and the terms "app", "here", "service", "AdCafé app" or "AdCafé" and "application" refer to the service we are providing to you, the user, in this smartphone application only. You’re
+            not allowed to copy, or modify the app, any part of the app, or our trademarks in any way. You’re not allowed to attempt to extract the source code of the app, and you also shouldn’t try to translate the app into other languages, or make derivative
+            versions. The app itself, and all the trade marks, copyright, database rights and other intellectual property rights related to it, still belong to Color Technologies Limited.</p>
         <p>Color Technologies Limited is committed to ensuring that the app is as useful and efficient as possible. For that reason, we reserve the right to make changes to the app or to charge for its services, at any time and for any reason. We will never
             charge you for the app or its services without making it very clear to you exactly what you’re paying for.</p>
         <p>The AdCafé app stores and processes personal data that you have provided to us, in order to provide our Service. It’s your responsibility to keep your phone and access to the app secure. We therefore recommend that you do not jailbreak or root
@@ -72,10 +87,10 @@
             or on any related website, should be taken to indicate that all information in the Service or on any related website has been modified or updated.</p>
         <p>With respect to Color Technologies Limited’s responsibility for your use of the app, when you’re using the app, it’s important to bear in mind that although we endeavour to ensure that it is updated and correct at all times, we do rely on third
             parties to provide information to us so that we can make it available to you. Color Technologies Limited accepts no liability for any loss, direct or indirect, you experience as a result of relying wholly on this functionality of the app.</p>
-        <p>At some point, we may wish to update the app. The app is currently available on Android Mobile Operating System – the requirements for the system (and for any additional systems we decide to extend the availability of the app to) may change, and you’ll need to download
-            the updates if you want to keep using the app. Color Technologies Limited does not promise that it will always update the app so that it is relevant to you and/or works with the Android version that you have installed on your device. However,
-            you promise to always accept updates to the application when offered to you, We may also wish to stop providing the app, and may terminate use of it at any time without giving notice of termination to you. Unless we tell you otherwise, upon
-            any termination, (a) the rights and licenses granted to you in these terms will end; (b) you must stop using the app, and (if needed) delete it from your device.</p>
+        <p>At some point, we may wish to update the app. The app is currently available on Android Mobile Operating System – the requirements for the system (and for any additional systems we decide to extend the availability of the app to) may change, and
+            you’ll need to download the updates if you want to keep using the app. Color Technologies Limited does not promise that it will always update the app so that it is relevant to you and/or works with the Android version that you have installed
+            on your device. However, you promise to always accept updates to the application when offered to you, We may also wish to stop providing the app, and may terminate use of it at any time without giving notice of termination to you. Unless we
+            tell you otherwise, upon any termination, (a) the rights and licenses granted to you in these terms will end; (b) you must stop using the app, and (if needed) delete it from your device.</p>
 
         </br>
         <p><strong>Improvement of the app.</strong></p>
@@ -100,15 +115,15 @@
         </br>
         <p><strong>Limitation of Liability.</strong></p>
         <p>To the fullest extent permitted by the law, in no event will, Color Technologies Limited, it's affiliates, or agents be liable for (a)Any indirect, special, incidental, punitive, exemplary or consequential(including loss of data,business or profits)
-            damages, regardless of leagel theory, or (b)Loss or use, data, business, revenues or profits(direct or indirect, for each case),event if we knew or should have known of the possibilty of such damages. To the fullest extent permitted by
-            the law, the maximum aggregate liability of Color Technologies Limited, its affiliates and agents for all claims relating to our services will not be more than the greater of KES 100 or any amounts paid by you to Color Technologies Limited
-            for the service in question during the twelve months prior to the event giving rise to liability.</p>
+            damages, regardless of leagel theory, or (b)Loss or use, data, business, revenues or profits(direct or indirect, for each case),event if we knew or should have known of the possibilty of such damages. To the fullest extent permitted by the
+            law, the maximum aggregate liability of Color Technologies Limited, its affiliates and agents for all claims relating to our services will not be more than the greater of KES 100 or any amounts paid by you to Color Technologies Limited for
+            the service in question during the twelve months prior to the event giving rise to liability.</p>
         <p>The foregoing limitations shall apply even if the user's remedies under this agreement fail of their essential purpose.</p>
 
         </br>
         <p><strong>Changes to This Terms and Conditions</strong></p>
-        <p> We may update our Terms and Conditions from time to time. Thus, you are advised to review this page periodically for any changes. We may or may not notify you of any changes by posting the new Terms and Conditions on this page. These changes are effective
-            immediately after they are posted on this page. If you do not agree to the modified terms for the service, you should discontinue your use of the service.</p>
+        <p> We may update our Terms and Conditions from time to time. Thus, you are advised to review this page periodically for any changes. We may or may not notify you of any changes by posting the new Terms and Conditions on this page. These changes are
+            effective immediately after they are posted on this page. If you do not agree to the modified terms for the service, you should discontinue your use of the service.</p>
         <p>These terms of service will be governed by the laws of Kenya except for its conflicts of laws principles. All claims arising out of or relating to the terms or the services litigated exclusively in Kenya except that you agree that Color Technologies
             Limited may apply for injunctive relief in any jurisdiction.</p>
         <p>If it turns out that a particular term is not enforcable, this will not affect any other terms.</p>
